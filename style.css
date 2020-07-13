@@ -1,0 +1,37 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1 {
+    color: var(--base);
+}
+body{
+    text-align: center;
+}
+
+body{
+    background :#191849;
+    color:white;
+    font-family: 'helvetica neue', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+input{
+    width:100px;
+}   
